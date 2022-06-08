@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media (min-width: 576px) {
+  .trapezoid{
+    clip-path: polygon(100% 5%, 100% 95%, 0 100%, 0 0)
+  }
+  Form {
+    width: 50%;
+  }
+
+  .card2 {
+    margin: 20px 10px;
+  }
+
+  .card3 {
+    margin: 8px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .trapezoid{
+    clip-path: polygon(100% 1%, 100% 99%, 0 100%, 0 0)
+  }
+
+  img {
+    width: 300px;
+  }
+
+  .aboba {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  Form {
+    width: 90%;
+  }
+
+  .card2 {
+    margin: 20px 0
+  }
+
+  .card3 {
+    margin: 4px 0;
+  }
+}
