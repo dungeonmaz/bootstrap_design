@@ -7,7 +7,7 @@ const Content3 = () => {
     return (
         <div>
             <h2 style={{ display: 'flex', justifyContent: 'center' }}>Products</h2>
-            <div className='aboba' style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around' }}>
+            <div className='vert_mob' style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around' }}>
                 <div>
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                         <h4 style={{margin:'25px'}}>Launchpad</h4>
@@ -20,7 +20,7 @@ const Content3 = () => {
                     </div>
                 </div>
 
-                <img src={phone} width="350px" alt='phone'/>
+                <img src={phone} className='mob_img' width="350px" alt='phone'/>
             </div>
         </div>
 

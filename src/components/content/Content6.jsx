@@ -4,13 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Content6 = () => {
     return (
-        <div className='aboba' style={{ backgroundColor: '#E5E5E5', padding: '60px 0', marginTop: '40px', display: 'flex', justifyContent: 'space-around' }}>
+        <div className='vert_mob' style={{ backgroundColor: '#E5E5E5', padding: '60px 0', marginTop: '40px', display: 'flex', justifyContent: 'space-around' }}>
             <div style={{padding:'40px 0'}}>
                 <h2 style={{ margin: '10px 0' }}>Contact Us</h2>
                 <p>For inquiries regarding events, projects,<br></br> collaborations, or general information.</p>
                 <a href=""> info@equiteez.com</a>
             </div>
-            <Form>
+            <Form className='formC6'>
 
                 <Form.Group as={Row} className="mb-3" controlId="formBasicName">
                     <Form.Label column sm="2">

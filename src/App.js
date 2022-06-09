@@ -11,16 +11,16 @@ import Header from './components/Header'
 
 function App() {
   return (
-    <div >
+    <main >
       <Header />
-      <Content1/>
-      <Content2/>
-      <Content3/>
-      <Content4/>
-      <Content5/>
-      <Content6/>
-      <Footer/>
-    </div>
+      <section id='s1'><Content1 /></section>
+      <section id='s2'><Content2 /></section>
+      <section id='s3'><Content3 /></section>
+      <section id='s4'><Content4 /></section>
+      <section id='s5'><Content5 /></section>
+      <section id='s6'><Content6 /></section>
+      <Footer />
+    </main>
   );
 }
 

@@ -12,12 +12,11 @@ code {
     monospace;
 }
 
-
 @media (min-width: 576px) {
   .trapezoid{
     clip-path: polygon(100% 5%, 100% 95%, 0 100%, 0 0)
   }
-  Form {
+  .formC6 {
     width: 50%;
   }
 
@@ -28,6 +27,20 @@ code {
   .card3 {
     margin: 8px;
   }
+
+  .center_mob{
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .vert_mob_2{
+    padding-left: 200px;
+    padding: 40px;
+  }
+
+  .center_mob_2{
+    margin-left: 100px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -35,17 +48,27 @@ code {
     clip-path: polygon(100% 1%, 100% 99%, 0 100%, 0 0)
   }
 
-  img {
+  .center_mob_2{
+    text-align: center;
+  }
+
+  .mob_img {
     width: 300px;
   }
 
-  .aboba {
+  .vert_mob {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  Form {
+  .vert_mob_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formC6 {
     width: 90%;
   }
 

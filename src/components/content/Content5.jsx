@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Container, Row, Card, Button } from 'react-bootstrap'
+import { Container, Row, Button } from 'react-bootstrap'
 import Content5Card from './Content5Card'
 import blog1 from '../../images/blog1.png'
 import blog2 from '../../images/blog2.png'
